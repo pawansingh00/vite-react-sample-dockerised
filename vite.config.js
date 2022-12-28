@@ -19,6 +19,6 @@ export default defineConfig({
 		setupFiles: ["./src/setupTests.js"],
 	},
     server: {
-        origin: "{{BASE_PATH}}"
+        origin: "{{GLIDER_BASE}}"
     }
 });
